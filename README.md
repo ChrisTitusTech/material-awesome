@@ -18,25 +18,14 @@ An almost desktop environment made with [AwesomeWM](https://awesomewm.org/) foll
 ### Note: the best transition is from gnome to material-awesome as KDE-plasma can break some indicators until plasma is purged entierly.
 
 ### 1) Get all the dependencies
-- [AwesomeWM](https://awesomewm.org/) as the window manager
-- [Roboto](https://fonts.google.com/specimen/Roboto) as the **font**
-- [Rofi](https://github.com/DaveDavenport/rofi) for the app launcher
-- [Compton fork](https://github.com/tryone144/compton) for the compositor (blur and animations)
-- [i3lock-fancy](https://github.com/meskarune/i3lock-fancy) the lockscreen application
-- [xclip](https://github.com/astrand/xclip) for copying screenshots to clipboard
-- __gnome-keyring-daemon__ and a __policykit-agent__ (by default policykit-1-gnome is enabled)
-- (Recommended) [pa-applet](https://github.com/fernandotcl/pa-applet) for an audiocontroll applet in the systray. Arch AUR: pa-applet-git
-- (Optional) __qt5-styles-gtk2__ or __qt5-styles-plugins__ for making QT and KDE applications look the same as gnome applications
-- (Optional) [Materia](https://github.com/nana-4/materia-theme) as GTK theme
-- (Optional) [Papirus Dark](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme) as icon theme
-=======
 - [AwesomeWM](https://awesomewm.org/) as the window manager - Arch install: awesome
 - [Roboto](https://fonts.google.com/specimen/Roboto) as the **font** - Arch install: ttf-roboto
 - [Rofi](https://github.com/DaveDavenport/rofi) for the app launcher - Arch install: rofi
 - [Compton](https://github.com/tryone144/compton) for the compositor (blur and animations) Arch install: compton
 - [i3lock](https://github.com/meskarune/i3lock-fancy) the lockscreen application Arch Install: i3lock
-- [xclip](https://github.com/astrand/xclip) for copying screenshots to clipboard 
+- [xclip](https://github.com/astrand/xclip) for copying screenshots to clipboard
 - __gnome-keyring__ and a __policykit-agent__ (by default policykit-1-gnome is enabled)
+- (Recommended) [pa-applet](https://github.com/fernandotcl/pa-applet) for an audiocontroll applet in the systray. Arch AUR: pa-applet-git
 - (Optional) __qt5-styles-gtk2__ or __qt5-styleplugins-git__ for making QT and KDE applications look the same as gnome applications
 - (Optional) [Materia](https://github.com/nana-4/materia-theme) as GTK theme - Arch Install: materia-theme
 - (Optional) [Papirus Dark](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme) as icon theme Arch Install: wget -qO- https://git.io/papirus-icon-theme-install | sh
