@@ -1,2 +1,14 @@
 #!/bin/bash
-spectacle -b -n $@ -o /tmp/screenshot.png ; xclip -selection clipboard -target image/png -i /tmp/screenshot.png ; paplay /usr/share/sounds/freedesktop/stereo/camera-shutter.oga
+if [ "$1" = "-f" ]; then
+
+	flameshot full -c	# Screenshot of full screen saved to clipboard
+
+fi
+
+
+
+if [ "$1" = "-s" ]; then
+
+	 flameshot gui		# Select screenshot area
+
+fi
