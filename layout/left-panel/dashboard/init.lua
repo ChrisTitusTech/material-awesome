@@ -15,7 +15,7 @@ return function(_, panel)
       widget = mat_icon
     },
     wibox.widget {
-      text = 'Search Applications',
+      text = 'Programme suchen',
       font = 'Roboto medium 13',
       widget = wibox.widget.textbox
     },
@@ -43,7 +43,7 @@ return function(_, panel)
       widget = mat_icon
     },
     wibox.widget {
-      text = 'End work session',
+      text = 'Sitzung beenden',
       font = 'Roboto medium 13',
       widget = wibox.widget.textbox
     },

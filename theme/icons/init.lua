@@ -19,6 +19,7 @@ return {
   restart = dir .. '/restart.svg',
   search = dir .. '/magnify.svg',
   volume = dir .. '/volume-high.svg',
+  mic = dir .. '/mic.svg',
   brightness = dir .. '/brightness-7.svg',
   chart = dir .. '/chart-areaspline.svg',
   memory = dir .. '/memory.svg',
