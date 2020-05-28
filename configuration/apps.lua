@@ -10,7 +10,7 @@ return {
   default = {
     terminal = 'gnome-terminal',
     rofi = rofi_command,
-    lock = 'i3lock',
+    lock = 'i3lock-fancy',
     quake = 'gnome-terminal',
     screenshot = '~/.config/awesome/configuration/utils/screenshot -f',
     region_screenshot = '~/.config/awesome/configuration/utils/screenshot -s',

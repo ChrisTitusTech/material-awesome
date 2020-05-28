@@ -22,7 +22,7 @@ An almost desktop environment made with [AwesomeWM](https://awesomewm.org/) foll
 - [Roboto](https://fonts.google.com/specimen/Roboto) as the **font** - Debian: fonts-roboto Arch: ttf-roboto Fedora: google-fonts-roboto
 - [Rofi](https://github.com/DaveDavenport/rofi) for the app launcher - universal install: rofi
 - [Compton](https://github.com/tryone144/compton) for the compositor (blur and animations) universal install: compton
-- [i3lock](https://github.com/meskarune/i3lock-fancy) the lockscreen application - Debian: i3lock-fancy Arch: i3lock Fedora: i3lock
+- [i3lock-fancy](https://github.com/meskarune/i3lock-fancy) the lockscreen application - Debian: i3lock-fancy Arch: i3lock Fedora: i3lock
 - [xclip](https://github.com/astrand/xclip) for copying screenshots to clipboard package - universal package install: xclip
 - __gnome-keyring__ and a __policykit-agent__ (by default policykit-1-gnome is enabled) OR mate-polkit
 - (Optional) __qt5-styles-gtk2__ or __qt5-styleplugins-git__ for making QT and KDE applications look the same as gnome applications - Debian: qt5-style-plugins Fedora: qt5-qtstyleplugins
