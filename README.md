@@ -19,15 +19,15 @@ An almost desktop environment made with [AwesomeWM](https://awesomewm.org/) foll
 
 ### 1) Get all the dependencies
 - [AwesomeWM](https://awesomewm.org/) as the window manager - universal package install: awesome
-- [Roboto](https://fonts.google.com/specimen/Roboto) as the **font** - Debian: fonts-roboto Arch: ttf-roboto
+- [Roboto](https://fonts.google.com/specimen/Roboto) as the **font** - Debian: fonts-roboto Arch: ttf-roboto Fedora: google-fonts-roboto
 - [Rofi](https://github.com/DaveDavenport/rofi) for the app launcher - universal install: rofi
 - [Compton](https://github.com/tryone144/compton) for the compositor (blur and animations) universal install: compton
-- [i3lock](https://github.com/meskarune/i3lock-fancy) the lockscreen application Arch Install: i3lock Debian: i3lock-fancy
-- [xclip](https://github.com/astrand/xclip) for copying screenshots to clipboard package: xclip
+- [i3lock](https://github.com/meskarune/i3lock-fancy) the lockscreen application - Debian: i3lock-fancy Arch: i3lock Fedora: i3lock
+- [xclip](https://github.com/astrand/xclip) for copying screenshots to clipboard package - universal package install: xclip
 - __gnome-keyring__ and a __policykit-agent__ (by default policykit-1-gnome is enabled) OR mate-polkit
-- (Optional) __qt5-styles-gtk2__ or __qt5-styleplugins-git__ for making QT and KDE applications look the same as gnome applications debian: qt5-style-plugins
-- (Optional) [Materia](https://github.com/nana-4/materia-theme) as GTK theme - Arch Install: materia-theme debian: materia-gtk-theme
-- (Optional) [Papirus Dark](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme) as icon theme Universal Install: wget -qO- https://git.io/papirus-icon-theme-install | sh
+- (Optional) __qt5-styles-gtk2__ or __qt5-styleplugins-git__ for making QT and KDE applications look the same as gnome applications - Debian: qt5-style-plugins Fedora: qt5-qtstyleplugins
+- (Optional) [Materia](https://github.com/nana-4/materia-theme) as GTK theme - Arch: materia-theme Debian: materia-gtk-theme Fedora: materia-gtk-theme
+- (Optional) [Papirus Dark](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme) as icon theme - Universal Install: wget -qO- https://git.io/papirus-icon-theme-install | sh
 - (Optional) [lxappearance](https://sourceforge.net/projects/lxde/files/LXAppearance/) to set up the gtk and icon theme
 - (Optional) [xbacklight](https://www.x.org/archive/X11R7.5/doc/man/man1/xbacklight.1.html) for adjusting brightness on laptops (disabled by default)
 - (Optional) [kde-spectacle](https://kde.org/applications/utilities/org.kde.spectacle) my personal screenshot utility of choice, can be replaced by whichever you want, just remember to edit the screenshot utility script
@@ -35,7 +35,7 @@ An almost desktop environment made with [AwesomeWM](https://awesomewm.org/) foll
 ### 2) Clone the configuration
 
 ```
-git clone https://github.com/ChrisTitusTech/material-awesome.git ~/.config/awesome
+git clone https://github.com/StippeJ/material-awesome.git ~/.config/awesome
 ```
 
 > Awesome 4.3 is so new that most of the distributions have not updated it yet. If you want to install this config on Awesome 4.2 (current version on depo) use the specific awesome-4.2 branch (not in development by me)
