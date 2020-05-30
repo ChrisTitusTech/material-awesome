@@ -29,7 +29,7 @@ An almost desktop environment made with [AwesomeWM](https://awesomewm.org/) foll
 - (Optional) [Materia](https://github.com/nana-4/materia-theme) as GTK theme - Arch: materia-theme Debian: materia-gtk-theme Fedora: materia-gtk-theme
 - (Optional) [Papirus Dark](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme) as icon theme - Universal Install: wget -qO- https://git.io/papirus-icon-theme-install | sh
 - (Optional) [lxappearance](https://sourceforge.net/projects/lxde/files/LXAppearance/) to set up the gtk and icon theme
-- (Optional) [xbacklight](https://www.x.org/archive/X11R7.5/doc/man/man1/xbacklight.1.html) for adjusting brightness on laptops (disabled by default)
+- (Optional) [brightnessctl](https://github.com/Hummer12007/brightnessctl) for adjusting brightness on laptops (disabled by default)
 - (Optional) [flameshot](https://flameshot.js.org/) my personal screenshot utility of choice, can be replaced by whichever you want, just remember to edit the screenshot utility script
 
 ### 2) Clone the configuration
