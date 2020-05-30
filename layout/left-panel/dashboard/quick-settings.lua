@@ -12,6 +12,6 @@ return wibox.widget {
   },
   require('widget.volume.volume-slider'),
   require('widget.mic-volume.volume-slider'),
-  --require('widget.brightness.brightness-slider'),
+  require('widget.brightness.brightness-slider'),
   layout = wibox.layout.fixed.vertical
 }
