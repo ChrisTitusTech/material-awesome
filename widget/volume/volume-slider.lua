@@ -19,24 +19,37 @@ slider:connect_signal(
   end
 )
 
+local icon =
+  wibox.widget {
+  --image = icons.volume,
+  widget = wibox.widget.imagebox
+}
+
 watch(
   [[bash -c "amixer -D pulse sget Master"]],
   1,
   function(_, stdout)
     local mute = string.match(stdout, '%[(o%D%D?)%]')
+    if(mute == 'on') then
+      icon.image = icons.volume
+    else
+      icon.image = icons.mutevolume
+    end
     local volume = string.match(stdout, '(%d?%d?%d)%%')
     slider:set_value(tonumber(volume))
     collectgarbage('collect')
   end
 )
 
-local icon =
-  wibox.widget {
-  image = icons.volume,
-  widget = wibox.widget.imagebox
-}
-
 local button = mat_icon_button(icon)
+
+-- Mute or unmute sound when clicking button
+button:connect_signal(
+  'button::press',
+  function()
+    spawn('amixer -D pulse sset Master toggle')
+  end
+)
 
 local volume_setting =
   wibox.widget {
