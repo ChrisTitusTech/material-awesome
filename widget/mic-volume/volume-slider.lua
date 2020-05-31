@@ -19,24 +19,37 @@ slider:connect_signal(
   end
 )
 
+local icon =
+  wibox.widget {
+  --image = icons.mic,
+  widget = wibox.widget.imagebox
+}
+
 watch(
   [[bash -c "amixer -D pulse sget Capture"]],
   1,
   function(_, stdout)
     local mute = string.match(stdout, '%[(o%D%D?)%]')
+    if(mute == 'on') then
+      icon.image = icons.mic
+    else
+      icon.image = icons.mutemic
+    end
     local volume = string.match(stdout, '(%d?%d?%d)%%')
     slider:set_value(tonumber(volume))
     collectgarbage('collect')
   end
 )
 
-local icon =
-  wibox.widget {
-  image = icons.mic,
-  widget = wibox.widget.imagebox
-}
-
 local button = mat_icon_button(icon)
+
+-- Mute or unmute mic when clicking button
+button:connect_signal(
+  'button::press',
+  function()
+    spawn('amixer -D pulse sset Capture toggle')
+  end
+)
 
 local volume_setting =
   wibox.widget {
