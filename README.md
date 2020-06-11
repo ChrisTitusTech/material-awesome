@@ -45,7 +45,7 @@ git clone -b awesome-4.2 https://github.com/PapyElGringo/material-awesome.git ~/
 ```
 
 ### 3) Set the themes
-Start **lxappearance** to active the **icon** theme and **GTK** theme
+Start **lxappearance** to activate the **icon** theme and **GTK** theme
 Note: for cursor theme, edit `~/.icons/default/index.theme` and `~/.config/gtk3-0/settings.ini`, for the change to also show up in applications run as root, copy the 2 files over to their respective place in `/root`.
 
 ### 4) Same theme for Qt/KDE applications and GTK applications, and fix missing indicators
