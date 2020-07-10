@@ -38,14 +38,14 @@ An almost desktop environment made with [AwesomeWM](https://awesomewm.org/) foll
 git clone https://github.com/ChrisTitusTech/material-awesome.git ~/.config/awesome
 ```
 
-> Awesome 4.3 is so new that most of the distributions have not updated it yet. If you want to install this config on Awesome 4.2 (current version on depo) use the specific awesome-4.2 branch (not in development by me)
+> Awesome 4.3 is so new that most of the distributions have not updated it yet. If you want to install this config on Awesome 4.2 (current version on repo) use the specific awesome-4.2 branch (not in development by me)
 
 ```
 git clone -b awesome-4.2 https://github.com/PapyElGringo/material-awesome.git ~/.config/awesome
 ```
 
 ### 3) Set the themes
-Start **lxappearance** to active the **icon** theme and **GTK** theme
+Start **lxappearance** to activate the **icon** theme and **GTK** theme
 Note: for cursor theme, edit `~/.icons/default/index.theme` and `~/.config/gtk3-0/settings.ini`, for the change to also show up in applications run as root, copy the 2 files over to their respective place in `/root`.
 
 ### 4) Same theme for Qt/KDE applications and GTK applications, and fix missing indicators
