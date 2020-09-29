@@ -117,7 +117,7 @@ watch(
     if (charge >= 0 and charge < 15) then
       if status ~= 'Charging' and os.difftime(os.time(), last_battery_check) > 300 then
         -- if 5 minutes have elapsed since the last warning
-        last_battery_check = _G.time()
+        last_battery_check = os.time()
 
         show_battery_warning()
       end
